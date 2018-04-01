@@ -5,7 +5,7 @@ const response = require('/response');
 
 // add new event
 router.post('/events', (req, res) =>  {
-
+    let body = req.body;
 });
 
 // get event
